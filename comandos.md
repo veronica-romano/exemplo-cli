@@ -35,5 +35,8 @@
 (basta fazer uma vez)
 `git push -u origin main`
 
+## puxar atualizações do remoto para o local
+`git pull`
+
 ## para mais informações de comandos
 https://gist.github.com/leocomelli/2545add34e4fec21ec16
