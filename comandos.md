@@ -1,6 +1,7 @@
 # Principais comandos GIT
 
 ## Inicializar repositório
+(somente uma vez por repositório)
 `git init`
 
 
@@ -20,15 +21,18 @@
 `git commit -m "mensagem desejada"`
 
 ## mudar o nome da branch de master pra main
+(basta fazer uma vez)
 `git branch -M main`
 
 ## clonar repositório remoto
 `git clone endereçorepositorio`
 
 ## adicionar uma referência do repositório remoto no ambiente local
+(basta fazer uma vez)
 `git remote add origin http://github.com/user-name/nome-repositorio.git`
 
-## fazer o push (envio para repositório remoto)
+## fazer o push com -u, envio para repositório remoto
+(basta fazer uma vez)
 `git push -u origin main`
 
 ## para mais informações de comandos
